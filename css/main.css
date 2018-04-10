@@ -1,0 +1,160 @@
+body {
+    color: #595959;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 3.8em;
+    font-family: 'Raleway';
+}
+
+h2 {
+    font-size: 3em;
+    color: #b30000;
+    font-family: 'Raleway';
+}
+
+p {
+    font-size: 1.8em;
+}
+
+.navbar {
+    padding: 0 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+}
+
+.navbar-brand {
+    color: #595959 !important;
+    font-size: 1.8em;
+    font-family: 'Raleway';
+    padding: 0;
+}
+
+.navbar img {
+    height: 1.8em;
+}
+
+.navbar-nav {
+    font-size: 1.5rem;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.jumbotron {
+    background-image: url("../img/me_neu-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 0%;
+    height: 90vh;
+}
+
+.jumbotext {
+    margin: 9em 7em;
+    background: rgba(255, 255, 255, 0.5);
+    max-width: 45em;
+    padding: 3em 5em;
+    font-family: 'Raleway';
+}
+
+.jumbotext button {
+    font-family: 'Lato';
+}
+
+button {
+    border: .1em solid #b30000;
+    background: transparent;
+    color:  #595959;
+    padding: .2em .5em;
+    margin: .5em .5em .5em 0;
+    font-size: 1.5em;
+}
+
+button:hover {
+    background: #b30000;
+    color: white;
+}
+
+.skill-card {
+    box-shadow: 5px 5px 30px lightgray;
+    padding: 3em;
+}
+
+.skill-card p {
+    color:  #b30000;
+    margin: 1em;
+}
+
+.cogwheels {
+    width: 9em;
+}
+
+.wireframe {
+    width: 7.7em;
+}
+
+.tags {
+    display: block;
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+
+.tags li {
+    background: #808080;
+    display: inline-block;
+    margin: .3em;
+    padding: 0 .5em;
+    font-size: 1.2em;
+}
+
+.projects {
+    background-image: url(../img/workplace2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 85vh;
+}
+
+.box {
+    background-image:  linear-gradient( 120deg, #f4f4f4 55%, transparent 45%);
+    height: 85vh;
+}
+
+.project-text {
+    padding: 9em 0;
+}
+
+footer {
+	background-color: white;
+	color: #595959;
+    height: 3.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .row {
+    width: 100%;
+}
+
+footer p {
+	font-size: 1.2em;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer a:hover {
+    opacity: 0.7;
+    color: white;
+    text-decoration: none;
+}
