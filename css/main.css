@@ -25,7 +25,7 @@ p {
 }
 
 .navbar-brand {
-    color: #595959 !important;
+    color: #595959;
     font-size: 1.8em;
     font-family: 'Raleway';
     padding: 0;
@@ -35,8 +35,14 @@ p {
     height: 1.8em;
 }
 
-.navbar-nav {
+.nav-link {
     font-size: 1.5rem;
+    color: #595959;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
 }
 
 .navbar-toggler {
@@ -57,10 +63,12 @@ p {
 }
 
 .jumbotext {
-    margin: 9em 7em;
+    position: relative;
+    top: 30%;
+    left: 5%;
     background: rgba(255, 255, 255, 0.5);
-    max-width: 45em;
-    padding: 3em 5em;
+    max-width: 45%;
+    padding: 2% 3%;
     font-family: 'Raleway';
 }
 
@@ -129,31 +137,42 @@ button:hover {
 }
 
 .project-text {
-    padding: 9em 0;
+    padding: 12% 0;
 }
 
 footer {
 	background-color: white;
 	color: #595959;
-    height: 3.5em;
+    height: 4em;
     display: flex;
     justify-content: space-between;
+    padding: .5em;
 }
 
 footer .row {
     width: 100%;
 }
 
+footer .footer-right {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 footer p {
-	font-size: 1.2em;
+    font-size: 1.2em;
+    margin: .3em .6em;
+    padding: .3em;
 }
 
-footer img {
-    width: 40px;
-    height: 40px;
+footer .footer-links {
+    border-right: 1px solid #808080;
+    font-size: 1.2em;
+    color:  #595959;
 }
 
-footer a:hover {
+footer img:hover {
     opacity: 0.7;
     color: white;
     text-decoration: none;
