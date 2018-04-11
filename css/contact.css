@@ -9,13 +9,13 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2.8em;
     color: #b30000;
     font-family: 'Raleway';
 }
 
 p {
-    font-size: 1.8em;
+    font-size: 1.2em;
 }
 
 .navbar {
@@ -59,89 +59,44 @@ p {
 }
 
 .jumbotron {
-    background-image: url("../img/me_neu-min.jpg");
+    background-image: url("../img/scribble.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 0%;
-    height: 90vh;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .jumbotext {
-    position: relative;
-    top: 30%;
-    left: 5%;
-    background: rgba(255, 255, 255, 0.5);
-    max-width: 45%;
-    padding: 2% 3%;
+    color: #b30000;
     font-family: 'Raleway';
-}
-
-.jumbotext button {
-    font-family: 'Lato';
-}
-
-button {
-    border: .1em solid #b30000;
-    background: transparent;
-    color:  #595959;
-    padding: .2em .5em;
-    margin: .5em .5em .5em 0;
     font-size: 1.5em;
 }
 
-button:hover {
-    background: #b30000;
+.container {
+    padding: 5% 2%;
+}
+
+p a {
+    color: #b30000;
+}
+
+p a:hover {
+    color: #b30000;
+    text-decoration: none;
+}
+
+.social {
+    background-color: #808080;
     color: white;
 }
 
-.skill-card {
-    box-shadow: 5px 5px 30px lightgray;
-    padding: 3em;
-}
-
-.skill-card p {
-    color:  #b30000;
-    margin: 1em;
-}
-
-.cogwheels {
-    width: 9em;
-}
-
-.wireframe {
-    width: 7.7em;
-}
-
-.tags {
-    display: block;
+.social:hover {
     color: white;
-    list-style: none;
-    padding: 0;
-}
-
-.tags li {
-    background: #808080;
-    display: inline-block;
-    margin: .3em;
-    padding: 0 .5em;
-    font-size: 1.2em;
-}
-
-.projects {
-    background-image: url(../img/workplace2.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    height: 85vh;
-}
-
-.box {
-    background-image:  linear-gradient( 120deg, #f4f4f4 55%, transparent 45%);
-    height: 85vh;
-}
-
-.project-text {
-    padding: 12% 0;
+    background-color: #b30000;
+    text-decoration: none;
 }
 
 footer {
