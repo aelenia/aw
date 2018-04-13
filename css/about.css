@@ -15,7 +15,7 @@ h2 {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .navbar {
@@ -58,27 +58,24 @@ p {
     outline: none;
 }
 
-.jumbotron {
-    background-image: url("../img/scribble2.jpg");
+.stage {
+    background-image: url(../img/mini-me.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-size: contain;
+    background-position: right;
+    height: 75vh;
 }
 
-.jumbotext {
-    color: #b30000;
-    font-family: 'Raleway';
-    font-size: 1.5em;
+.box {
+    background-image:  linear-gradient( 110deg, #f4f4f4 55%, transparent 45%);
+    height: 75vh;
+    position: relative;
 }
 
 .scroll {
     position: absolute;
-    top: 55%;
-    left: 50%;
+    top: 75%;
+    left: 27%;
     width: 40px;
     height: 40px;
     margin-left: -12px;
@@ -103,29 +100,17 @@ p {
   }
 }
 
-.container {
-    padding: 5% 2%;
-}
-
-p a {
+.jumbotext {
     color: #b30000;
+    font-family: 'Raleway';
+    font-size: 1.5em;
+    position: absolute;
+    top: 45%;
+    left: 12%;
 }
 
-p a:hover {
-    color: #b30000;
-    text-decoration: none;
-}
 
-.social {
-    background-color: #808080;
-    color: white;
-}
 
-.social:hover {
-    color: white;
-    background-color: #b30000;
-    text-decoration: none;
-}
 
 footer {
 	background-color: white;
