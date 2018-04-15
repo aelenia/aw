@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: #595959;
     font-family: 'Lato', sans-serif;
@@ -109,6 +113,60 @@ p {
     left: 12%;
 }
 
+.text {
+    position: relative;
+}
+
+.text::after {
+    content: '';
+    height: 110px;
+    width: 5px;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    background: #e8e8e8;
+}
+
+.vita {
+    background: #e8e8e8;
+}
+
+.vita .container {
+    position: relative;
+    height: 200vh;
+}
+
+.point1 {
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    width: 45%;
+    position: absolute;
+    top: 2%;
+    left: 49%;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.point1::before {
+    content: '';
+    height: 48px;
+    width: 5px;
+    position: absolute;
+    top: -48px;
+    left: 0;
+    background: white;
+}
+
+.point2 {
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    width: 45%;
+    position: absolute;
+    top: 30%;
+    left: 550px;
+    text-align: right;
+    box-sizing: border-box;
+}
 
 
 
