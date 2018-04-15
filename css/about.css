@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: #595959;
     font-family: 'Lato', sans-serif;
@@ -109,7 +113,81 @@ p {
     left: 12%;
 }
 
+.text {
+    position: relative;
+}
 
+.text::after {
+    content: '';
+    height: 45px;
+    width: 5px;
+    position: absolute;
+    background: #e8e8e8;
+    bottom: -25px;
+    left: 25%;
+}
+
+.vita {
+    background: #e8e8e8;
+    position: relative;
+    height: 400vh;
+}
+
+.point1 {
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    width: 60%;
+    height: 350px;
+    position: absolute;
+    top: 25px;
+    left: 25%;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.point1::before {
+    content: '';
+    height: 30px;
+    width: 5px;
+    position: absolute;
+    background: white;
+    top: -30px;
+    left: 0;
+}
+
+.point2 {
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    width: 70%;
+    height: 350px;
+    position: absolute;
+    top: 375px;
+    left: 15%;
+    box-sizing: border-box;
+}
+
+.point3 {
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    width: 60%;
+    height: 350px;
+    position: absolute;
+    top: 725px;
+    left: 15%;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.point4 {
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    width: 50%;
+    height: 350px;
+    position: absolute;
+    top: 1075px;
+    left: 25%;
+    box-sizing: border-box;
+}
 
 
 footer {
