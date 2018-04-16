@@ -85,11 +85,11 @@ p {
     border-left: 1px solid #595959;
     border-bottom: 1px solid #595959;
     transform: rotate(-45deg);
-    animation: sdb05 2s infinite;
+    animation: sdb 2s infinite;
     box-sizing: border-box;
 }
 
-@keyframes sdb05 {
+@keyframes sdb {
   0% {
     transform: rotate(-45deg) translate(0, 0);
     opacity: 0;
