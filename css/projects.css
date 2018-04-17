@@ -78,11 +78,10 @@ p {
 
 .scroll {
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 75%;
+    left: 49%;
     width: 40px;
     height: 40px;
-    margin-left: -12px;
     border-left: 1px solid #595959;
     border-bottom: 1px solid #595959;
     transform: rotate(-45deg);
