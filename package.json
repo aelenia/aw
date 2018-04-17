@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run bs | npm run watch | npm run sass",
-    "sass": "node-sass src/scss/styles.scss dist/css/styles.css -w src/scss",
+    "sass": "node-sass src/scss/main.scss dist/css/main.css && node-sass src/scss/about.scss dist/css/about.css && node-sass src/scss/projects.scss dist/css/projects.css && node-sass src/scss/contact.scss dist/css/contact.css && node-sass src/scss/main.scss dist/css/main.css -w src/scss && node-sass src/scss/about.scss dist/css/about.css -w src/scss && node-sass src/scss/projects.scss dist/css/projects.css -w src/scss && node-sass src/scss/contact.scss dist/css/contact.css -w src/scss",
     "bs": "browser-sync start --server --serveStatic 'dist' --files 'dist'",
-    "partials": "html-include-comment src/index.html dist/index.html",
+    "partials": "html-include-comment src/index.html dist/index.html && html-include-comment src/about.html dist/about.html && html-include-comment src/projects.html dist/projects.html && html-include-comment src/contact.html dist/contact.html",
     "watch": "watch 'npm run partials' src --interval=0.1"
   },
   "author": "",
