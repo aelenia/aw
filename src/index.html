@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
+  <!-- Stell bitte deine Einrückung (indentation) auf 2 spaces ein -->
     <header>
         <nav class="navbar fixed-top navbar-expand-lg">
             <a class="navbar-brand ml-3" href="#"><img class="mr-3" src="img/Logo.png" alt="">Alexa Weber</a>
@@ -26,6 +27,7 @@
         </nav>
     </header>
     <main>
+      <!-- Bitte nutze section, um auszudrücken, dass hier Inhalte zusammen gehören -->
         <div class="jumbotron">
             <div class="jumbotext">
                 <h1>Hi, I am Alexa</h1>
@@ -35,11 +37,13 @@
             </div>
             <a class="scroll" href="#skills"></a>
         </div>
+        <!-- bitte nutze section (auch weiter unten), um semantisch zu gruppieren -->
         <div class="container skills my-4 py-5" id="skills">
             <h2 class="mb-4">What I offer</h2>
             <div class="row">
                 <div class="col-md m-3 skill-card">
                     <div class="text-center">
+                      <!-- in diesem Fall würde ich das alt-Tag leer lassen -->
                         <img class="cogwheels" src="img/cogwheels.png" alt="cogwheels">
                         <p>Frontend Development</p>
                     </div>
@@ -55,6 +59,7 @@
                 </div>
                 <div class="col-md m-3 skill-card">
                     <div class="text-center">
+                      <!-- auch hier alt="", du schreibst danach ja "UX Design", das ist die eigentliche Info -->
                         <img class="wireframe" src="img/wireframe.png" alt="wireframe">
                         <p>UX Design</p>
                     </div>
@@ -69,6 +74,7 @@
                 </div>
             </div>
         </div>
+        <!-- section, bitte -->
         <div class="projects">
             <div class="box">
                 <div class="container project-text">
@@ -81,7 +87,8 @@
         </div>
     </main>
     <footer>
-            <p>&copy alexaweber.de 2018</p>
+        <!-- es heißt `&copy;` mit Semikolon am Ende -->
+            <p>&copy; alexaweber.de 2018</p>
             <div class="footer-right">
                 <a class="footer-links px-3" href="contact.html">Contact</a>
                 <a class="px-1" href="https://www.xing.com/profile/Alexa_Weber5?sc_o=mxb_p" target="_blank"><img src="img/xing.png" alt="Xing Logo"></a>
