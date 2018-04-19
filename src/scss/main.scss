@@ -1,7 +1,12 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+// wenn du styles sowohl in main, als auch in contact, about etc. verwendest,
+// definiere sie nur einmal in einer eigenen Datei (z.B. _base.scss) und
+// importiere sie in main, contact und about nur. Dann hast du keinen
+// duplicated code: @import 'base';
+
 body {
-    color: #595959;
+    color: #595959; // ab jetzt kannst du Variablen verwenden
     font-family: 'Lato', sans-serif;
 }
 
@@ -22,6 +27,7 @@ p {
 
 .navbar {
     padding: 0 1rem;
+    // in SCSS kannst du auch rgba(white, 0.9) schreiben
     background-color: rgba(255, 255, 255, 0.9);
     position: fixed;
 }
@@ -173,6 +179,9 @@ p {
 .project-text {
     padding: 12% 0;
 }
+
+
+// mach dir vielleicht auch eigene Dateien für footer etc. Nicht nur pro Seite.
 
 footer {
 	background-color: white;
